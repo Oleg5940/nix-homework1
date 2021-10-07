@@ -1,0 +1,346 @@
+@font-face {
+    src: url("../fonts/YesevaOne-Regular_v2.otf");
+    font-family: "YesevaOne-Regular";
+}
+
+@font-face {
+    src: url("../fonts/MullerRegular.eot");
+    font-family: "MullerRegular";
+}
+
+@font-face {
+    src: url("../fonts/MullerBold.eot");
+    font-family: "MullerBold";
+}
+
+body {
+    margin: 0;
+}
+
+.slick-next {
+    background-image: url("../images/left.png");
+}
+
+.my-slick {
+    margin-top: 50px;
+}
+
+#header-container {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.my-slick-contant {
+    width: 100%;
+}
+
+.slick-prev {
+    left: -25px;
+}
+
+.slick-slide {
+    margin: 0 15px;
+    text-align: center;
+}
+
+.wedding-url {
+    text-decoration: none;
+    font-size: 14px;
+    line-height: 14px;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: #BD8D99;
+}
+
+#wedding-img {
+    position: absolute;
+    top: 14px;
+}
+
+#wedding-url-container {
+    padding: 39px 0;
+}
+
+#header:first-child {
+    margin-left: 0;
+}
+
+#header {
+    text-align: center;
+    box-shadow: 0px 4px 20px rgba(189, 141, 153, 0.2);
+}
+
+#main-title {
+    font-size: 38px;
+    line-height: 44px;
+    text-align: center;
+    color: #4B0012;
+    font-family: "YesevaOne-Regular";
+    max-width: 615px;
+    margin: 0 auto;
+    padding-top: 80px;
+}
+
+#parket-photo {
+    margin-top: 120px;
+    font-size: 34px;
+    line-height: 39px;
+    color: #4B0012;
+    font-family: "YesevaOne-Regular";
+}
+
+#tabs {
+    margin-top: 43px;
+    width: 738px;
+}
+
+.ui-widget-content {
+    background: #FCF2F2;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+    background: #FCF2F2;
+    color: #4B0012;
+
+}
+
+.ui-widget-header {
+    background: #FCF2F2;
+    border: none;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    border: none;
+}
+
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    background: none;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    background: #FFFFFF;
+    width: 175px;
+    list-style: none;
+    float: left;
+    position: relative;
+    top: 0;
+    margin-right: 10px;
+    padding: 0;
+    white-space: nowrap;
+    border: 1px solid #FCF2F2;
+    border-radius: 10px 10px 0px 0px;
+}
+.ui-widget.ui-widget-content {
+    border: none;
+}
+.ui-tabs .ui-tabs-nav {
+    padding: 0;
+}
+
+.ui-tabs .ui-tabs-nav li:last-child {
+    margin-right: 0;
+}
+
+.ui-tabs {
+    position: relative;
+    padding: 0
+}
+
+*, *::before, *::after {
+    box-sizing: content-box;
+}
+
+#tabs-title {
+    font-size: 18px;
+    line-height: 23px;
+    color: #4B0012;
+    font-family: "MullerRegular";
+    font-weight: bold;
+}
+
+#tabs-contant {
+    margin-top: 15px;
+}
+
+.tabs-contant {
+    font-size: 16px;
+    line-height: 16px;
+    color: #1E0108;
+    margin-top: 12px;
+    font-family: "MullerRegular";
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    text-align: center;
+    background: #FCF2F2;
+    color: #4B0012;
+}
+
+ol, ul, dl {
+
+    margin-bottom: 1rem;
+}
+
+.ui-tabs .ui-tabs-nav .ui-tabs-anchor {
+    float: left;
+    padding: 0;
+    text-decoration: none;
+    color: #B08989;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active {
+    padding: 22px 0;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    display: flex;
+    justify-content: center;
+    padding: 22px 0;
+}
+
+.ui-tabs .ui-tabs-nav li.ui-tabs-active .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-state-disabled .ui-tabs-anchor, .ui-tabs .ui-tabs-nav li.ui-tabs-loading .ui-tabs-anchor {
+    cursor: text;
+    color: #4B0012;
+}
+
+.slick-next, .slick-prev {
+    font-size: 0;
+    line-height: 0;
+    position: absolute;
+    top: 50%;
+    display: block;
+    width: 23px;
+    height: 42px;
+    padding: 0;
+    -webkit-transform: translate(0, -50%);
+    -ms-transform: translate(0, -50%);
+    transform: translate(0, -50%);
+    cursor: pointer;
+    color: transparent;
+    border: none;
+    outline: 0;
+}
+
+.slick-next:before, .slick-prev:before {
+    font-family:;
+    font-size:;
+    line-height: 1;
+    opacity: 0;
+    color: -moz-mac-focusring;
+    display: none;
+}
+
+.slick-next {
+    background-image: url(../images/right.png);
+}
+
+.slick-prev {
+    background-image: url(../images/left.png);;
+}
+
+
+
+.slick-next {
+    right: -25px;
+}
+
+#married {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+}
+
+#answers {
+    font-size: 34px;
+    line-height: 39px;
+    text-align: center;
+    color: #4B0012;
+    margin-top: 120px;
+    font-family: "YesevaOne-Regular";
+}
+
+#accordion {
+    margin-top: 45px;
+}
+
+.ui-widget {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+    width: 928px;
+}
+
+.ui-helper-reset {
+    margin: 0 auto;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    line-height: 1.3;
+    text-decoration: none;
+    font-size: 100%;
+    list-style: none;
+}
+
+.slick-next:focus, .slick-next:hover, .slick-prev:focus, .slick-prev:hover {
+    background-image: url(../images/right.png);
+}
+.ui-widget-header {
+    background: white;
+    border: none;
+}
+.ui-state-active, .ui-widget-content .ui-state-active, .ui-widget-header .ui-state-active, a.ui-button:active, .ui-button:active, .ui-button.ui-state-active:hover {
+    border: 1px solid #003eff;
+    background: #007fff;
+    font-weight: normal;
+    color: #4B0012;
+}
+.arrow{
+    position: absolute;
+    top: 33px;
+    right: 33px;
+}
+.ui-accordion .ui-accordion-header {
+    display: block;
+    cursor: pointer;
+    position: relative;
+    margin-top: 15px;
+    padding: 28px 0;
+    font-size: 100%;
+    background: #FCF2F2;
+    color: #4B0012;
+    font-family: "MullerRegular";
+    font-weight: bold;
+    border: none;
+    border-radius: 10px;
+    border-bottom-left-radius:0;
+    border-bottom-right-radius:0;
+    border: 1px solid grey;
+}
+.ui-accordion-content{
+    background: white;
+}
+#footer {
+    background: #FCF4F4;
+    position: relative;
+    margin-top: 80px;
+    text-align: center;
+    padding: 39px 0;
+}
+
+#footer-container{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+#footer-img {
+    position: absolute;
+    top: 14px;
+}
+
+#footer-txt {
+    font-size: 12px;
+    line-height: 12px;
+    text-align: center;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: rgba(189, 141, 153, 0.5);
+    font-family: "MullerRegular";
+}
